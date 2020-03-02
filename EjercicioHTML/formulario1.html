@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Ejemplo de formulario GET</title>
+<meta charset="utf-8">
+    </head>
+    <body>
+        <h3>Formulario GET</h3>
+        <form action="recogeGet.html" method="get">
+            Escribe tu nombre:
+            <input type="text" name="nombre" />
+            <br/>
+            Escribe tu dirección:
+            <input type="text" name="direcc" />
+            <br/>
+            <input type="submit" value="Enviar" />
+        </form>
+		<form action="recogeGet.html" method="get">
+			<table>
+				<tr>
+					<td><input type ="checkbox" name ="cas1" id ="cas1"</td>
+					<td><label for="cas1">casilla 1</label></td>
+					<!--en la anterior se utiliza para relacionar casilla uno con el checkbox en distinto sitio -->
+				</tr>
+				<tr>
+					<td></td>
+					<td>casilla 2</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>casilla 3</td>
+				</tr>
+			</table>
+			<br>
+			Preferencias:<br>
+				<label><input type="radio" name="horario" value="tarde" checked tabindex="6">Tarde</label><br>
+				<label><input type="radio" name="horario" value ="mañana">Mañana<br></label>
+				<label><input type="radio" name="horario" value ="noche">Noche<br></label>
+				<br/>
+		</form>
+    </body>
+</html>

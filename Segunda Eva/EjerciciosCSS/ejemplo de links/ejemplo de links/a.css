@@ -1,0 +1,4 @@
+a:link { color: red; } /* enlace no visitado*/
+a:visited { color: blue; } /* enlace que ya fue visitado */
+a#a1:hover {color: red; } /* cambia la apariencia cuando se pasa el ratón por encima del enlace, sin pulsar. */
+a:active { color: lime; } /* cambia la apariencia justo cuando se pulsa en el enlace */

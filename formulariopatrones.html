@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html  lang="es">
+	<head>
+		<title>Esto es el titulo</title>
+	</head>
+	<body>
+	
+
+		<form action="demo_form.asp" method="get">
+		  <h1>FORMULARIO USANDO PATRONES</h1>
+		  Nombre:<input type="text" name="nomre" pattern="[A-Z][a-z] {8}" placeholder="Aaaaaaaa"><br>
+		  DNI: <input type="text" name="Dni" pattern="\d{8}-[A-Z]" placeholder="99999999-X"><br>
+		  DNI2: <input type="text" name="Dni2" pattern="[1-9]\d{7}-[A-Z]"><br>
+		  DNI sin el numero 3: <input type="text" name="Dni" pattern="[0-24-9]{8}-[A-Z]"><br>
+		  
+		  CODIGO: <input type="text" name="CODIGO" pattern="4[2-5][1-4][79]"><br>
+		  
+		  TelefOnO mOvil; <input type="text" name="telefOnO" pattern="6\d{8}"><br>
+		  TelefOnO mOvil; <input type="text" name="telefOnO2" pattern="[67][0-9]{8}"><br>
+
+		  Tienes TelefOnO mOvil? <input type="text" name="telefOnO2" pattern="(SI|NO)">SI NO<br>
+		  
+		  
+		  <input type="submit" value="Submit"><br>
+		
+		</form>
+
+	
+	
+	
+	
+	
+		
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Esto es el titulo</title>
+	</head>
+	<body>
+		
+		<MAP NAME="nombre1">
+						<AREA SHAPE="rect" COORDS="1,1,67,40" HREF="indice.htm">
+						<AREA SHAPE="rect" COORDS="67,1,134,40" HREF="intro.htm">
+		</MAP>
+		<IMG SRC="C:\Users\dam129\OneDrive\Documentos\Lenguaje de marcas\Nueva carpeta\sugeren.gif" USEMAP="#nombre1">
+
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

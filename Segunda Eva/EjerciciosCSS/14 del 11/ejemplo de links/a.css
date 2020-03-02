@@ -1,0 +1,11 @@
+/*links normales sin subrayado 
+
+los visitados fondo gris y rojos
+
+al pasar el raton por encima poner subrayado.
+
+*/
+
+
+a:link {text-decoration:none;}
+a:hover#a1 {color:red}

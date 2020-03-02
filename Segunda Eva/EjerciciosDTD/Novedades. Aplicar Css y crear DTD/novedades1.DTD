@@ -1,0 +1,6 @@
+<!ELEMENT novedades (novedad+)>
+    <!ATTLIST novedad fecha CDATA REQUIRED>
+  <!ELEMENT novedad (titulo, url, descripcion)>
+  <!ELEMENT titulo  #PCDATA>
+  <!ELEMENT url #PCDATA>
+  <!ELEMENT descripcion #PCDATA>

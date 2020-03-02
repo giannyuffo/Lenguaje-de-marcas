@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formularios Patrones</title>
+	<meta charset="utf-8">
+</head>
+	<body>	
+	<h3>Formulario usando patrones</h3>
+
+		<form action="recogeget.html" method="get" name="Formulario usando patrones" >
+		 
+				Nombre: 
+				<input type="text" name="nombre" placeholder="Aaaaaaaaaaaaaa" maxlength="10" pattern="[A-Z][a-z]{1,9}"><br>
+				Código Postal: 
+				<input type="text" name="CP" pattern="[1-9]\d{4}" maxlength="5"><br>
+				Teléfono fijo de Coruña: 
+				<input type="text" name="TelFijo" value="981" pattern="981[0-9]{6}" maxlength="9"><br>
+				Nombres que empiecen por A o B:  
+				<input type="text" name="NombreAoB" pattern="[AB][a-z]+"><br>
+				Nombre de ordenador de las aulas 20, 18 y 05: 
+				<input type="text" name="NombreOrdenador" value="PC" pattern="PC(20|18|05) \d {2}" ><br>
+
+				Dígito binario:
+				<input type="text" name="binario" pattern="[01]"><br>
+
+				Número binaro: 
+				<input type="text" name="binario4dig" pattern="[01]{4}"><br>
+				(4 digitos)
+				Dígito hexadecimal 
+				<input type="text" name="digHexa" pattern="[0-9A-F]"><br>
+				Número hexadecimal 
+				<input type="text" name="numHexa" pattern="[0-9A-F]{2}"><br>
+				(2 digitos)
+				Código: 
+				<input type="text" name="Codigo" placeholder="AaAaAaAaAaAaAa" pattern="[A-Z][a-z]*"
+				AaAaAaAaAaAaAa
+				(tamaño indefinido)
+				<input type="submit" value="Enviar">
+		</form> 
+	</body>
+</html>

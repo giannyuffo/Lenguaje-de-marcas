@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email [
+<!ELEMENT email (de, para+, asunto?, cuerpo?, adjunto*)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
+<!ELEMENT adjunto (#PCDATA)>
+]>
+
+<email>
+<de>maria@gmail.com</de>
+<para>ignacio@gmail.com</para>
+<para>pedro@edu.xunta.es</para>
+<asunto>Ahí tenéis los archivos</asunto>
+<adjunto>D:\fotos\dePesca.jpg</adjunto>
+<adjunto>D:\docs\carta.odt</adjunto>
+<adjunto>D:\fotos\enLaCena.jpg</adjunto>
+</email>

@@ -1,0 +1,16 @@
+			h1:before{content: url(../imagenes/koalaGafas.jpg)}
+			h2:after {content: "se acabo la clase" ;color: red;}
+			tr:nth-child(even){background: grey;} 
+			tr:last-child{text-decoration: underline;} 
+			#t1 tr:first-child {color: red;} 
+			h1:first-letter {font-size: 500%}
+			
+			.una{color: red;}
+			.dos {color: blue;}
+			
+			div {background: pink;}
+			
+			div+div {background-color:grey;}
+			
+			
+			p{text-decoration: underline; cursive}

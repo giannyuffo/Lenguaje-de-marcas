@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Ejemplo de formulario GET</title>
+<meta charset="utf-8">
+    </head>
+    <body>
+        <h3>Formulario Post</h3>
+        <form action="recogeGet.html" method="get">
+            Escribe tu nombre:
+            <input type="text" name="nombre" maxlength="5" />
+            <br/>
+            Escribe tu dirección:
+            <input type="text" name="direccion" size="5"/>
+            <br/>
+			Escribe tu poblacion
+			<input type="text" name="poblacion" value="Coruña"/>
+			<br/>
+			¿Eres mayor de edad?
+			<input type="checkbox" name="mayorEdad">
+			<br/>
+            <br/>
+			Titulaciones:
+			<input type="checkbox" name="tecnicoM">Tecnico Medio
+			<input type="checkbox" name="tecnicoS">Tecnico Superior
+			<input type="checkbox" name="ingeniero">Ingeniero
+			<br>
+			Turno:
+			<input type="radio" name="turno" value="mañana" checked>Mañana
+			<input type="radio" name="turno" value ="tarde">Tarde
+			<br>
+			Turno 	<select  name="turno">
+						<option selected="selected" disabled="disabled">Elije una opcion</option>
+						<option>Mañana</option>
+						<option>Tarde</option>
+						<option>Dual</option>
+					</select>
+			<br>
+			<select name="grupo" size="2">
+					<option value="SMR1">1º Sistemas microinformaticos y redes</option>
+					<option value="SMR2">2º Sistemas microinformaticos y redes</option>
+					<option value="DAM1">1º Desarrollo de apps multiplataformas</option>
+					<option value="DAM2">2º Desarrollo de apps multiplataformas</option>					
+			</select>
+			<br><br><br>
+			¿Que monitor tienes en casa?
+			<!-- hp
+			15"
+			19"
+			21"
+			dell
+			15"
+			19"
+			21"
+			lg 
+			15"
+			19"
+			21"-->
+			<select name="menuMonitor">
+				<option selected="selected" disabled="disabled">Elige Monitor</option>
+				<optgroup label="HP">
+					<option value="hp15">15"</option>
+					<option value="hp19">19"</option>
+					<option value="hp21">21"</option>
+				</optgroup>
+				<optgroup label="Dell">
+					<option value="dell15">15"</option>
+					<option value="dell19">19"</option>
+					<option value="dell21">21"</option>
+				</optgroup>
+				<optgroup label="LG">
+					<option value="lg15">15"</option>
+					<option value="lg19">19"</option>
+					<option value="lg21">21"</option>
+				</optgroup>
+			</select>
+            <input type="submit" value="Enviar" />
+			
+			<button type="submit"><u><font color="red">Enviar</font></u></button>
+			<input type="reset" value="Reset" />
+			<br>
+			
+			
+			
+			
+
+        </form>
+    </body>
+</html>

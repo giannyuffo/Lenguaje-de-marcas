@@ -1,0 +1,22 @@
+novedad{
+  display:block;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+titulo {
+  color: red;
+  font-size: 1.2 em;
+  display: list-item;
+  list-style: disc;
+  font-weight: bold;
+
+}
+url{
+  display: block;
+
+
+}
+descripcion{
+  display: block;
+
+}

@@ -1,0 +1,92 @@
+	a#uno
+		as identificados con #uno
+		
+	a( espacio )#uno	
+		algo que esta dentro de a identificado con #uno
+		
+		espacio significa descendiente de
+
+1. Selector que selecciona los p  que están dentro de un h1 y los h2 que estan dentro de un div
+
+	(los p y los div)
+		p,div
+	(p  que están dentro de un h1)
+		h1 p
+	(los h2 que estan dentro de un div)
+		div h2
+	(p  que están dentro de un h1 y los h2 que estan dentro de un div)
+		h1 p, div h2
+---------------------------------------------------------------------------------------------------------------------	
+2. Selector que selecciona los h1 que son hijos de un p.
+
+	p > h1
+---------------------------------------------------------------------------------------------------------------------	
+3. Dado el codigo:
+
+	....más código ......
+	<h1>Titulo1</h1>
+	<h2>Subtítulo1</h2>
+	<h1>Titulo2</h1>
+	<h2>Subtítulo2</h2> (para seleccionar este sería: h2+h1+h2 se selecciona el ultimo h2 adyacente a h1 adyacente a su vez a h2)
+	<h2>Outro subtítulo</h2>
+	....más código ......
+	Selecciona "Outro subtítulo"
+	
+	h2 + h2
+---------------------------------------------------------------------------------------------------------------------	
+4. Selector que seleciona TODOS(un) elemento que pertenece a la clase PEPITO
+
+	.PEPITO
+	(. PARA CLASES)
+---------------------------------------------------------------------------------------------------------------------	
+5. Selector que seleciona un elemento identificado como PEPITO
+	
+	#PEPITO
+	(#PARA IDES)
+	
+---------------------------------------------------------------------------------------------------------------------	
+6. Selector que seleciona un elemento identificado como PEPITO que está contenido dentro de un div.
+
+	div #pepito
+	
+---------------------------------------------------------------------------------------------------------------------
+7. Selector que selecciona un enlace visitado y que es hijo de un p
+	
+	p>a:visited
+
+---------------------------------------------------------------------------------------------------------------------
+8. Selector que selecciona la primera letra de un p y la primera letra de un h1.
+
+	p:first-letter , h1:first-letter
+	
+---------------------------------------------------------------------------------------------------------------------
+9. Dado el siguiente codigo:
+
+.....mas codigo .......
+<h1 id="a">Titulo1</h1>
+<h2 id="a">Subtítulo1</h2>
+<h1 class="b">Titulo2</h1>
+<h2 id="c">Subtítulo2</h2>
+<h2 class="b">Outro subtítulo</h2>
+...........mas codigo ...
+
+Selecciona: Titulo1
+
+	h1#a
+	
+	(no puede haber espacio y tiene que estar h1 ya que hay dos ids:a)
+
+Selecciona:Subtítulo1
+
+	h2#a
+	
+Selecciona:Titulo2 y Outro subtítulo
+
+	.b
+Selecciona:Outro subtítulo
+
+	h2.b
+Selecciona:Subtítulo2
+	
+	#c
+	(en principio todos los identificadores se llaman asi, no es normal que esten repetidos. Son unicos. Si estan repetidos se utiliza el selector tipo: h1,h2...)

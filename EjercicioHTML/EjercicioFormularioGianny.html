@@ -1,0 +1,392 @@
+<html>
+	<head>
+		<title>Ejercicios Formularios</title>
+	</head>
+	<body>
+		<font size="5">Formularios<br><br>
+		Formulario Indice de tabulación</font><br><br>
+		<form action="recogeGet.html" method="get">
+			<table bgcolor = "pink" border="1" width="50%">
+				<tr>
+					<td>
+						 Nombre de usuario
+						<label>
+						<input type="text" name="nombre" tabindex="1"/>
+						</label>
+						<br/>
+						<u>C</u>ontraseña
+						<input type="password" name="contrasena" tabindex="2" />
+					</td> 
+					<td>
+						Grupo:<br>
+						<input type="radio" name="grupo" value="DAM1" checked tabindex="6">Dam 1<br>
+						<input type="radio" name="grupo" value ="DAM2">Dam 2<br>
+						<input type="radio" name="grupo" value ="SMR">SMR 1<br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Módulos en los que estoy matriculado<br>
+						<input type="checkbox" name="LM" checked tabindex="3">L.M.<br>
+						<input type="checkbox" name="PR" tabindex="4">PR<br>
+						<input type="checkbox" name="FOL" tabindex="5">FOL<br>
+					</td>
+					<td>
+						Módulo que más me gusta:<br>
+						<input type="radio" name="modulo" value="LM" tabindex="7">LM<br>
+						<input type="radio" name="modulo" value ="PR">PR<br>
+						<input type="radio" name="modulo" value ="FOL">FOL<br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align ="center">
+						<input type="submit" tabindex="8" value="Iniciar Sesión"></input>
+
+					</td>
+					
+				</tr>
+			</table>
+		</form>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<form action="recogeGet.html" method="get">
+		<fieldset align="left">
+		<font size="5"><b>Rellena tu CV</b></font><br><br>
+		<fieldset align="left"><legend align="left">Datos Personales</legend>	
+			Provincia
+			<select  name="provincia">
+				<option selected="selected" disabled="disabled">selecciona</option>
+				<option value="C">A Coruña</option>
+				<option value="LU">Lugo</option>
+				<option value="OU">Ourense</option>
+				<option value="PO">Pontevedra</option>
+			</select>
+			<br><br>
+			Fecha de Nacimiento
+			<br>
+			<input type="text" name="day" maxlength="2" size="2" />
+			de
+			<select  name="month">
+				<option selected="selected">Enero</option>
+				<option name="C">Febrero</option>
+				<option name="">Marzo</option>
+				<option name="OU">Abril</option>
+				<option name="PO">Mayo</option>
+				<option name="">Junio</option>
+				<option name="">Julioio</option>
+				<option name="">Agosto</option>
+				<option name="">Septiembre</option>
+				<option name="">Octubre</option>
+				<option name="">Noviembre</option>
+				<option name="">Diciembre</option>
+			</select>
+			de 
+			<input type="text" name="year" maxlength="4" size="4">
+			<br><br>
+			Temas de interés<br>
+			<select name="temasInteres" size="5" multiple="multiple">
+				<option value="ADMBD">Administración de base de datos</option>
+				<option value="AnaPro">Análisis y programación</option>
+				<option value="Arqui">Arquitectura</option>
+				<option value="Cali">Calidad</option>
+				<option value="ERPCRMBI">ERP, CRM, Busisness Intelligence</option>
+				<option value="DisMaq">Diseño y Maquetación</option>
+				<option value="SistInfo">Sistemas Informáticos</option>
+				<option value="TecnoS">Tecnologías del siglo anterior</option>
+			</select>
+		<input type="submit" value="Guardar Cambios" />
+		</fieldset>
+		</fieldset>
+		</form>
+		<br><br><br>
+		<form action="recogeGet.html" method="post">
+		<fieldset align="left">
+		<font size="5"><b>Rellena tu CV</b></font><br><br>
+			Nombre<br>
+			<input type="text" name="nombre" size="20"><br>
+			Apellidos<br>
+			<input type="text" name="apellidos" size="30"><br>
+			Contraseña<br/>
+			<input type="password" name="contrasena" size="20"/><br>
+			DNI<br>
+			<input type="text" name="DNI" maxlength="9" size="10"><br>
+			<br>
+			Sexo<br>
+			<input type="radio" name="sexo" value="Mujer" checked>Mujer<br>
+			<input type="radio" name="sexo" value ="Hombre">Hombre<br>
+			<br>
+			Incluir mi foto 
+				
+					<input type="file" name="adjunto" />
+				<br><br>
+			<input type="checkbox" name="tecnicoM" checked> Suscribirme al boletin de novedades<br><br>
+			<input type="submit" value="Guardar cambios"/>
+			<input type="reset" value="Borrar datos introducidos" />	
+		</fieldset>
+		</form>
+		<br><br><br>
+		Formulario de animales(image, select multiple y grupos de opciones)
+		<form action="recogeGet.html" method="get">
+		<fieldset>
+		
+			¿Qué animal te gusta más?<br><br>
+			<select  name="animalMasGusta">
+					<option selected="selected" disabled="disabled">Selecciona un animal</option>
+					<option value="KO">Koala</option>
+					<option value="GA">Gato</option>
+					<option value="PE">Perro</option>
+					<option value="PA">Pájaro</option>
+					<option value="TO">Tortuga</option>
+					<option value="SE">Serpiente</option>
+			</select><br><br>
+			¿Qué animales te gustan?<br><br>
+			<select  name="animalesGustan" size="3" multiple="multiple">
+					<option value="KO">Koala</option>
+					<option value="GA">Gato</option>
+					<option value="PE">Perro</option>
+					<option value="PA">Pájaro</option>
+					<option value="TO">Tortuga</option>
+					<option value="SE">Serpiente</option>
+			</select><br><br><br>
+			<select name="tipoanimal" size="7">
+				<option selected="selected" disabled="disabled" >Selecciona un animal</option>
+				<optgroup label="Domestico">
+					<option value="domGA">Gato</option>
+					<option value="domPE">Perro</option>
+					<option value="domPA">Pajaro</option>
+					<option value="domTO">Tortuga</option>
+				</optgroup>
+				<optgroup label="No Doméstico">
+					<option value="nodomKO">Koala</option>
+					<option value="nodomSE">Serpiente</option>	
+				</optgroup>
+			</select><br><br>
+			<button >
+				<font color="red" align="center">Enviar<img alt="Circulo" src="https://st4.depositphotos.com/7857468/20427/v/1600/depositphotos_204271098-stock-illustration-cartoon-wild-animals-white-background.jpg"
+				width="100" height="20%" /></font>
+			</button>
+			<input type="image" width="100" height="20%" src="https://st4.depositphotos.com/7857468/20427/v/1600/depositphotos_204271098-stock-illustration-cartoon-wild-animals-white-background.jpg">
+
+		</fieldset>	
+		</form><br><br><br><br>
+		Formulario de producto
+		<br><br>
+		<form action="recogeGet.html" method="post">
+		<fieldset>
+		<fieldset><legend align="Left">Datos Básicos</legend>
+			Nombre<br>
+			<input type="text" name="nombre"/>
+			<br>
+			Descripción<br>
+			<textarea name="texto" rows="7" cols="18"></textarea>  
+			<br/>
+			Foto
+			<input type="file" name="adjunto" />
+			<br>
+			<input type="checkbox" name="tecnicoM" > Añadir contador de visitas<br><br>
+		</fieldset>
+		<fieldset><legend align="left"> Datos económicos</legend>
+			Precio <input type="text" name="precio" tabindex="1" size="3"/> € 
+			Impuestos 
+			<select  name="impuestos">
+					<option name="4">4%</option>
+					<option name="7">7%</option>
+					<option name="16">16%</option>
+					<option name="25">25%</option>
+			</select><br><br><br>
+			Promoción<br>
+			<input type="radio" name="promoion" value="ninguno" tabindex="7" checked>Ninguno<br>
+			<input type="radio" name="promocion" value ="transporteGratuito">Transporte Gratuito<br>
+			<input type="radio" name="promocion" value ="Descuento5%">Descuento 5%<br>
+		</fieldset>
+		</fieldset>
+		</form>
+		<br>
+		<br>
+		<br>
+	<form action="recogeGet.html" method="get">
+	<fieldset>
+		<b>Formulario estructurado</b>
+		<fieldset><legend align="left">Datos personales</legend>
+			Nombre<br>
+			<input type="text" name="nombre" size="20"/>
+			<br>
+			Apellidos<br>
+			<input type="text" name="apellidos" size="20"><br>
+			DNI<br>
+			<input type="text" name="DNI" maxlength="9" size="10"><br>
+			<br>
+		</fieldset>
+		<fieldset><legend align="left">Datos de conexión</legend>
+			Nombre de usuario
+				<input type="text" name="nombre"/>
+				<br/>
+				Contraseña
+				<input type="password" name="contrasena" /><br>
+				Repite Contraseña
+				<input type="password" name="contrasena" /><br>
+		</fieldset>
+	</fieldset>
+	</form><br><br><br><br>
+		Formulario datos personales<br>
+		<form action="recogeGet.html" method="get">
+			<table border ="1" width="50%">
+				<tr>
+					<td align="left" >
+					Nombre: 
+					</td>
+					<td>
+					<input type="text" name="nombre" size="10"/> 
+					F.NAc.: 
+					<input type="text" name="fechanac" size="8"/>
+					DNI
+					<input type="text" name="DNI" maxlength="9" size="10">
+					</td>
+				</tr>
+				<tr>
+					<td>Apellidos</td>
+					<td><input type="text" name="apellidos" size="30"></td>
+				</tr>
+				<tr>
+					<td>Calle y Número:</td>
+					<td><input type="text" name="apellidos" size="30"></td>
+				</tr>
+				<tr>
+					<td>Código Postal</td>
+					<td><input type="text" name="codigoPostal" size="7" maxlength="5">
+					Ciudad <input type="text" name="ciudad" size="30"></td>
+				</tr>
+				<tr>
+					<td>Provincia</td>
+					<td>
+					<input type="text" name="provincia" size="30">
+					Teléfono
+					<input type="text" name="telefono" size="30">
+					</td>
+				</tr>
+				<tr>
+					<td>Opción</td>
+					<td>
+						<select  name="opcion">
+							<option name="1" checked>OPCION 1</option>
+							<option name="2">OPCION 2</option>
+							<option name="3">OPCION 3</option>
+							<option name="4">OPCION 4</option>
+						</select>
+						Escoja una opción
+					</td>
+				</tr>
+				<tr>
+					<td>Comentarios personales</td>
+					<td><textarea name="texto" rows="2" cols="25"></textarea>  
+				</td>
+				</tr>
+				<tr>
+					<td>Pulse aquí:</td>
+					<td align="center">
+						<input type="submit" value="Enviar datos"/>
+						<input type="reset" value="Borrar datos introducidos" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br><br><br>
+		<form action="recogeGet.html" method="get">
+			<table border="0" bgcolor="yellow" cellspacing="0" cellpadding="10" width="50%">
+				<tr bgcolor="blue">
+					<td><font color="white">Enviar Mensaje</font></td>
+					<td align="right">
+						<button >
+							<img alt="Circulo" src="https://colaborativo.net/wp-content/uploads/2018/05/cruz-roja.png"
+							width="10" height="20%" />
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">Nombre:</td>
+					<td><input type="text" name="nombre" size="20"></td>
+				</tr>
+				<tr>
+					<td align="right">E-mail:</td>
+					<td><input type="text" name="email" size="20"></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">Mensaje</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center" ><textarea name="texto" rows="2" cols="25"  ></textarea>  
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2" >
+						<input type="submit" value="Enviar datos"/>
+						<input type="reset" value="Borrar datos introducidos" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br><br><br>
+		<form action="recogeGet.html" method="get">
+			<table border="0" bgcolor="yellow" cellspacing="0" cellpadding="10" width="50%">
+				<tr bgcolor="blue">
+					<td><font color="white">Enviar Mensaje</font></td>
+					<td align="right">
+						<button >
+							<img alt="Circulo" src="https://colaborativo.net/wp-content/uploads/2018/05/cruz-roja.png"
+							width="10" height="20%" />
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">Departamento:</td>
+					<td>
+						<select  name="opcion">
+							<option selected="selected" disabled="disabled">Selecciona una opcion</option>
+							<option name="2">OPCION 2</option>
+							<option name="3">OPCION 3</option>
+							<option name="4">OPCION 4</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">Nombre:</td>
+					<td><input type="text" name="nombre" size="20"></td>
+				</tr>
+				<tr>
+					<td align="right">E-mail:</td>
+					<td><input type="text" name="email" size="20"></td>
+				</tr>
+				<tr>
+					<td align="right">Página web:</td>
+					<td><input type="text" name="paginaweb" size="20"></td>
+				</tr>
+				<tr>
+					<td align="right"><input type="checkbox" name="contadorvisitas" ></td>
+					<td align="left"> Añadir contador de visitas</td>
+				</tr>
+				<tr>
+					<td align="right"><input type="checkbox" name="confirmacionlect" ></td>
+					<td align="left"> Solicitar confirmación de lectura</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">Mensaje</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center" ><textarea name="texto" rows="2" cols="25"  ></textarea>  
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2" >
+						<input type="submit" value="Enviar datos"/>
+						<input type="reset" value="Borrar" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br><br><br>
+	</body>
+	
+</html>

@@ -1,0 +1,28 @@
+body{
+	background-color:#FFCC99;
+	
+}
+h1{
+	text-align:center;
+	color:grey;
+	text-transform:uppercase; /*poner todo el titulo en letra mayuscula*/
+	font-family:calibri;
+}
+p{
+	float:left;
+	width: 20%;
+	height:200px;
+	border: dashed 1px #FF9900;
+	margin: 10px;
+	text-align:justify;
+	line-height:25px;
+	background-color:#FFCC80;
+	font-style:italic;  /*poner en cursiva*/
+}
+p:first-letter {
+	float:left;
+	color:#FF8800;
+	font-size: 40px;
+	font-style:normal;    /*quitar la cursiva a la primera letra*/
+	
+}

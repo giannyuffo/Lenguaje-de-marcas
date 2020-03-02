@@ -1,0 +1,15 @@
+HTML
+
+title
+meta
+	http-equiv, content, URL
+h1,h2,....,h6
+		align
+body
+	bgcolor			
+		color
+	text, background,bgcolor, link, vlink
+<font>
+	face, color, size
+
+

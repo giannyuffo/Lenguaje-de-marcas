@@ -1,0 +1,42 @@
+
+	
+	body {background: url(elecciones.jpg) no-repeat center;
+		  }
+	
+	p {text-align:center;
+		font: 3em "Comic Sans MS";
+		color:red;
+	}
+	
+	
+	div {
+		width:45%;
+		padding: 10px;
+	}
+	div#uno{
+			background-color: lightgreen; margin:1px;
+			
+			border: 15px double;
+			border-color: red green;
+			
+			/*border-top:  15px double red;
+			border-bottom: 15px double red;
+			border-left: 15px double green;
+			border-right: 15px double green;*/
+			
+			float:left;
+			color:blue;
+			
+}
+	div#dos{background-image: url(fondo.png); 
+			margin:1px;
+			border-style:dotted;
+			border-width:10px;
+			float:right;
+
+}
+	div#uno h1{text-decoration: underline;
+		font-style:italic;
+		color:red;
+
+}

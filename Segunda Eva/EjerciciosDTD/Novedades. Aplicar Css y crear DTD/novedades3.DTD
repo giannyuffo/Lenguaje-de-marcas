@@ -1,0 +1,9 @@
+<!ELEMENT novedades (novedad+)>
+    <!ATTLIST novedad
+          clave ID #REQUIRED
+          estaRelacionadaCon IDEREFS #IMPLIED
+          fecha CDATA REQUIRED>
+  <!ELEMENT novedad (titulo, url, descripcion)>
+  <!ELEMENT titulo  #PCDATA>
+  <!ELEMENT url #PCDATA>
+  <!ELEMENT descripcion #PCDATA>

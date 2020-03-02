@@ -1,0 +1,30 @@
+			#tabla1:first-child:before{content: url(https://icon-icons.com/es/icono/letra-v-azul/34853.png);}
+			
+			
+			
+			#tabla1 tr:nth-child(even){background: grey;} 
+			
+			#tabla1 tr:nth-child(4){text-decoration: underline;} 
+			
+			#tabla1 tr:nth-child(odd){background: pink;} 
+			
+			/*
+			#tabla1 tr:first-child {color: red;} 
+			
+			#tabla1 tr:last-child {color: blue;} 
+			
+			#tabla1 tr:first-child td~td{color: red;}
+			#tabla1 tr:first-child td+td{color: blue;}
+			*/
+			
+			#tabla1 tr:last-child td:nth-child(2), #tabla1 tr:first-child td:nth-child(3) {color: blue;} 
+			
+			#tabla1 tr:first-child td:nth-child(2), #tabla1 tr:first-child td:nth-child(3) {color: red;}
+			
+			#tabla1 tr:first-child {color: green;} 
+			
+			
+			#tabla2:after {content: "Fin de contenidos de la tabla2";}
+			
+			p:after {content:"Fin de los contenidos de la pagina"; color:red; background-color:grey;}
+			

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html  lang="es">
+	<head>
+		<title>Esto es el titulo</title>
+	</head>
+	<body>
+	
+
+		<form action="demo_form.asp" method="get">
+		  DNI: <input type="text" name="Dni" pattern="\d{8}-[A-Z]" placeholder="99999999-X"><br>
+		  DNI2: <input type="text" name="Dni2" pattern="[1-9]\d{7}-[A-Z]"><br>
+		  DNI sin el numero 3: <input type="text" name="Dni" pattern="[0-24-9]{8}-[A-Z]"><br>
+		  
+		  CODIGO: <input type="text" name="CODIGO" pattern="4[2-5][1-4][79]"><br>
+		  
+		  Telefono movil; <input type="text" name="telefono" pattern="6\d{8}"><br>
+		  Telefono movil; <input type="text" name="telefono2" pattern="[67][0-9]{8}"><br>
+
+		  Tienes Telefono movil? <input type="text" name="movil" pattern="(SI|NO)">SI NO<br>
+		  
+		  Grupo
+		  <input type="text" name="grupo" pattern="(ASI|DAM)[12]">
+		  
+		  Grup DAM1 DAM2 Asi1 ASI2
+		  MAC <input type="text" name="grupo" pattern="([0-9A-F]{2}-)(5)[0-9A-F]{2}">
+
+		  
+		  
+		  
+		  <input type="submit" value="Submit"><br>
+		
+		</form>
+
+	
+	
+	
+	
+	
+		
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="2curso.xsd">
+<Curso>
+		<Titulo>Lenguaje de Marcas</Titulo>
+		<descripcion>0123456789</descripcion> <!--cadema de caracteres de longitud 10-->
+		<Horas>200</Horas>
+		<observaciones>abc</observaciones>  <!-- cadena de entre 3 y 8 caracteres-->
+		<grupo>DAM1</grupo> <!-- opciones: dam1 dam2 asi1, asi2-->
+		<precio>120</precio> <!-- entre 100 y 150 incluidos-->
+		<precio2>120</precio2>
+    <precio3>120</precio3>
+    <turno></turno> <!-- mañana o de tarde definido dentro-->
+    <precioMaximo></precioMaximo><!-- un numero positivo mayor o igual que 1-->
+    <precioMinimo></precioMinimo><!-- un numero entre 20 (no incluido) y 30(no incluidos)-->
+	</Curso>
+	<Curso>
+		<Titulo>BBDD</Titulo>
+		<descripcion>0123456789</descripcion>
+		<Horas>210</Horas>
+		<observaciones>abcd</observaciones>
+<!--		<grupo>ASI2</grupo>-->
+		<precio>120</precio>
+	</Curso>
+ </Lista>

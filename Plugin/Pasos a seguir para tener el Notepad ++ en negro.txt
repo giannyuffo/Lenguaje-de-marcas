@@ -1,0 +1,13 @@
+Hola, anónimo.
+Si lees esto (y quieres poner Notepad en negro), sigue estos pasos:
+	1. Abre Notepad, ve a Lenguaje --> Defina su lenguaje.
+	2. En Defina su lenguaje, ve a Importar.
+	3. Antes de seleccionar el archivo ".xml", pásalo de esta carpeta ("\\datos\Comunes\dam1\Lenguaje de Marcas\Plugin") al Escritorio. Una vez que esté en el escritorio, selecciónalo.
+	4. Reinicia Notepad.
+	5. Al reiniciar Notepad, ve a Configuración --> Configurador de estilo.
+	6. Selecciona el tema Obsidian.
+	7. Ve a Global Styles --> Global Override y haz click en el color de fondo.
+	8. En el color de fondo, haz click en More Colours...
+	9. En More Colours, pon los valores 43 en los colores Rojo, Verde y Azul y haz click en Agregar a los colores personalizados.
+	10. Haz click en Habilitar color global de fondo.
+Un saludo, "Pa k kieres saber eso jaja salu2".

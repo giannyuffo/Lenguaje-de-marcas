@@ -1,0 +1,13 @@
+<!ELEMENT lista (producto+)>
+  <!ELEMENT producto (nombre, fabricante, precio+)>
+    <!ATTLIST producto
+          referencia (A1|A2)
+          color #PCDATA>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fabricante (empresa, localidad?)>
+        <!ELEMENT empresa (#PCDATA)>
+            <!att
+        <!ELEMENT localidad (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+        <!ATTLIST precio
+          cliente (final|distribuidor) #REQUIRED>

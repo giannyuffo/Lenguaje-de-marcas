@@ -1,0 +1,48 @@
+1. Selector que selecciona los p  que están dentro de un h1 y los h2 que estan dentro de un div
+Respuesta: h1 p,div h2  {}
+ejemplo: a#uno--> un a identificado como #uno
+		a #uno--> algo identificado como uno que está dentro de un a
+2. Selector que selecciona los h1 que son hijos de un p.
+p>h1
+3. Dado el codigo:
+
+....más código ......
+<h1>Titulo1</h1>
+<h2>Subtítulo1</h2>
+<h1>Titulo2</h1>
+<h2>Subtítulo2</h2>
+<h2>Outro subtítulo</h2>
+
+....más código ......
+Selecciona "Outro subtítulo"
+h2+h2
+4. Selector que seleciona un elemento que pertenece a la clase PEPITO
+Respuesta: .PEPITO
+5. Selector que seleciona un elemento identificado como PEPITO
+Respuesta: #PEPITO
+6. Selector que seleciona un elemento identificado como PEPITO que está contenido dentro de un div.
+Respuesta: div #PEPITO
+7. Selector que selecciona un enlace visitado y que es hijo de un p
+Respuesta: p>a:visited
+8. Selector que selecciona la primera letra de un p y la primera letra de un h1.
+Respuesta: p:first-letter , h1:first-letter
+9. Dado el siguiente codigo:
+
+.....mas codigo .......
+<h1 id="a">Titulo1</h1>
+<h2 id="a">Subtítulo1</h2>
+<h1 class="b">Titulo2</h1>
+<h2 id="c">Subtítulo2</h2>
+<h2 class="b">Outro subtítulo</h2>
+
+...........mas codigo ...
+Selecciona: Titulo1
+h1#a 
+Selecciona:Subtítulo1
+h2#a
+Selecciona:Titulo2 y Outro subtítulo
+.b
+Selecciona:Outro subtítulo
+h2.b
+Selecciona:Subtítulo2
+#c

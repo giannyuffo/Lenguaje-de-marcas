@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="curso.xsd">
+  	<Curso>
+  		<Titulo>Lenguaje de Marcas</Titulo> entre 1 y 3 titulos
+  		<Horas>200</Horas>
+      <fechaComienzo>2020-02-13</fechaComienzo>
+      <precio>100</precio> que aparezca dos veces
+      <numeroProfesores>3</numeroProfesores>
+      <horaComienzo>14:00:00</horaComienzo>
+      <fechaFinHora>2020-02-13T14:00:00</fechaFinHora>
+      <presencial>true</presencial> opcional
+  	</Curso>
+  	<Curso>
+  		<Titulo>BBDD</Titulo>
+  		<Horas>210</Horas>
+      <fechaComienzo>2020-02-14</fechaComienzo>
+      <precio>200</precio>
+      <numeroProfesores>2</numeroProfesores>
+      <horaComienzo>13:10:00</horaComienzo>
+      <fechaFinHora>2020-02-14T13:10:00</fechaFinHora>
+      <presencial>true</presencial>
+
+  	</Curso>
+  </Lista>

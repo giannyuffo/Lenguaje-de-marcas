@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html  lang="es">
+	<head>
+		<title>Esto es el titulo</title>
+	</head>
+	<body>
+	
+		\d*
+		\d{2}
+		
+		
+		[A-Z][a-z]+
+		Scccncncncncncn.......
+		([A-Z][a-z])+
+		AaBxCq...........
+		
+		
+		
+		<br><br>
+		Número binario: <input type="text" name="binario" size="2"><br>
+		Número hexadecimal: <input type="text" name="hexadecimal" size="2"><br>
+	<br>
+	
+		<form action="demo_form.asp" method="get">
+		  
+			DNI: <input type="text" name="dni"  
+		  pattern="\d{8}-[A-Z]" placeholder="99999999-X"><br>
+		  DNI2: <input type="text" name="dni2"  
+		  pattern="[1-9]\d{7}-[A-Z]"><br>
+		   DNI sin el numero 3: <input type="text" name="dni"  
+		  pattern="[0-24-9]{8}-[A-Z]"><br>
+		    
+		  codigo : <input type="text" name="codigo"  
+		  pattern="4[2-5][1-4][79]">
+		  
+		  Telefono movil : <input type="text" name="telefono1"  pattern="6\d{8}">
+		  Telefono movil : <input type="text" name="telefono2"  pattern="6[0-9]{8}">
+		  
+		  Telefono movil : <input type="text" name="telefono2"  pattern="[6-8][0-9]{8}">
+		  
+		  <!-- -->
+		  Tienes telefono movil? <input type="text" name="tienes"  pattern="(SI|NO)">
+			Grupo 
+			<input type="text" name="grupo"  pattern="(ASI|DAM)[12]">
+
+	
+			GRUPO DAM1 DAM2 ASI1 ASI2	
+		  
+			<input type="submit" value="Submit"><br>
+		
+		</form>
+
+	
+	
+	IPCONFIG /ALL
+	
+	
+		
+	</body>
+</html>

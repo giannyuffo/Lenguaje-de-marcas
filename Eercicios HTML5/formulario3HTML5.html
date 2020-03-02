@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Esto es el titulo</title>
+	</head>
+	<body>
+		<form action="algo.html" method="post" id="f1">
+		<fieldset legend="Datos de Alumnos" align="left"><legend>formulario HTML</legend>
+			Color preferido: <input type="color" name="colorpreferido"><br>
+			Fecha de Nacimiento: <br>
+			<input type="date" name="fechaNac" ><br>
+			<datalist id="provincia" >
+			  <option value="A Coru&ntilde;a">
+			  <option value="Lugo">
+			  <option value="Ourense">
+			  <option value="Pontevedra">
+			  <option value="Otra">
+			</datalist>
+			Provincia de Nacimiento: <br>
+			<input  type="text"  name="provinciaNacimiento" list="provincia"><br>
+			Provincia de Residencia:<br>
+			<input  type="text"  name="provinciaResidencia" list="provincia"><br>
+			E-mail:<br>
+			<input type="email" name="email" multiple value="@gmail.com" autofocus><br>
+			URL de entrega:<br>
+			<input type="url" name="urlEntrega" ><br>
+			Mes incio curso: <br>
+			<input type="month" name="meComienzoCurso"><br>
+			Edad<br>
+			<input type="number" name="minumero" min="0" max="99" step="1" placeholder="99"> 
+			Valoración del curso: 
+			<input type="range" name="numero" min="0" max="10" step="5" value="0">
+			<br>(Rango de 0 a 10 en intervalos de 5)<br>
+			Datos a buscar<br>
+			<input type="search" name="q" ><br><br>
+			Nombre*<br>
+			<input type="text" name="nombre" required>
+			<br>
+			<input type="submit" name="getynovalidate" value="Enviar method get y no validar" formmethod="get" formnovalidate><br>
+			<input type="submit" value="Enviar y abrir en una ventana nueva" formtarget="_blank"><br>
+			<input type="image" src="https://promocionmusical.es/wp-content/uploads/2018/10/enviar-archivos-pesados-herramientas-gratuitas-para-enviar-archivos-810x432.png" 
+			width="150"		>
+			</fieldset>		
+		</form>
+		
+		FIN DEL FORMULARIO<br>
+		<input type="checkbox" name="enviarinfo" checked  id="info" form="f1" id="info">
+		<label for ="info"> Enviar información (Esta opcion se enviara tambien con el formulario. </label>
+	</body>
+</html>

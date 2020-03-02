@@ -1,0 +1,29 @@
+ul{
+	list-style-type: none;
+	/*background-color:cyan;	
+		background-color:grey;*/
+}
+li{
+	
+	float:left;
+	background-color:#00F9E9;
+	
+	border-left:#CCC solid 2px;
+	padding:20px;
+	
+	
+	/*display:inline;
+	
+	border-spacing:#CCC solid thin;*/
+}
+.primeiroli{
+	
+	border-left:none;
+}
+a{
+	color:white;
+	text-decoration:none;
+	}
+a:hover{
+	color:blue;
+}

@@ -1,0 +1,22 @@
+poner los p en tamaño 20px
+
+	p{font-size: 20px} no se puede usar font porque es oblitaorio utilizar font-size y font-family.
+
+H1 arial y el doble del tamaño.
+
+	h1{font:200% arial}
+	h1{font-size: 200%; font-family: arial}
+	
+H2 interlineado 20px y tipo de letra arial	
+	
+
+h4 todas las propiedades 
+	h4{font: italic small-caps bold 30px/30px courier}
+	
+	
+	
+	
+	
+	
+	
+	

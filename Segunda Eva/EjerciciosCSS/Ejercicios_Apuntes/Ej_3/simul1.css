@@ -1,0 +1,32 @@
+#indice{
+	background-color: lightblue;
+	/*float:left;
+	width:48%;*/
+	
+	position:absolute;
+	left:7%;
+	width:20%;
+	top:15%;
+	height:95%;
+	border:none;
+}
+#contenido{
+	background-color:orange;
+	/*float:right;
+	width:48%;*/
+	
+	position:absolute;
+	left:35%;
+	width:60%;
+	top:15%;
+	height:95%;
+	border:none;
+	overflow:hidden;
+}
+#Apartado1{
+	height:100%;
+}
+#Apartado2{
+	/*overflow:hidden;* se pone  a contenido, no a los dos apartados*/
+	height:100%;
+}

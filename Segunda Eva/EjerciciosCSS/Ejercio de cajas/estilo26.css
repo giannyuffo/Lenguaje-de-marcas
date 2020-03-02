@@ -1,0 +1,20 @@
+
+
+
+
+body {}
+
+h1 y h2 borde verde doble
+
+	h1,h2{ border: double green}
+h4 fondo koala una sola vez centrado borde: 
+izquierda doble y derecha: punteado y el borde
+ azul por todas partes y de 19px. Relleno por arriba de 20px.
+
+	h4{background: url(koalap.jpg) no-repeat center;
+	border-left: double blue 19px;
+	border-right: dotted blue 19px;
+	}
+	
+h3 borde muy redondeado por arriba derecha.
+	h3{border: solid; border-top-right-radius: 15px}

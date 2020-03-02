@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>pagina6</title>
+	</head>
+	<body>
+		<hr>
+		</hr>
+		<hr noshade>
+		<hr color="#FF0000">
+		<hr width="50%">
+		<hr width ="50" sieze="50">
+	</body>
+</html>

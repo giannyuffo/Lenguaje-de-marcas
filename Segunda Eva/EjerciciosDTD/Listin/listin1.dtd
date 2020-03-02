@@ -1,0 +1,11 @@
+<!ELEMENT persona(nombre, email*, relacion?)>
+		<!ATTLIST persona
+				id ID #REQUIRED
+				sexo (hombre|mujer) "" #IMPLIED >
+				 
+		<!ELEMENT nombre (#PCDATA)>
+		<!ELEMENT email (#PCDARA)>
+		<!ELEMENT relacion EMPTY>
+			<!ATTLIST relacion 
+					Amigo-de IDREF IMPLIED
+					Enemigo-de IDREF IMPLIED>
