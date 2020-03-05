@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="http://www.w3.org/2001/XMLSchema.xsd"
+>
+    <xs:element name="Lista">
+        <xs:complexType>  <!--lista es complejo porque contiene elementos--> 
+            <xs:sequence>
+                <xs:element name="Curso" maxOccurs="unbounded">
+                    <xs:complexType>   <!--curso es complejo porque contiene elementos--> 
+                        <xs:sequence>
+                            <xs:element name="Titulo" type="xs:string" maxOccurs="3" />
+                            <xs:element name="Horas" type="xs:nonNegativeInteger"/>
+                            <xs:element name="festivosLocales" type="unionFechasLocales" maxOccurs="unbounded"/>
+                            <xs:element name="valoracion" type="unionValoraciones" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipoFecha">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Pilar"/>
+            <xs:enumeration value="Reyes"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+	<xs:simpleType name="unionFechasLocales">
+        <xs:union memberTypes="tipoFecha xs:date"/>
+    </xs:simpleType>
+	
+	<xs:simpleType name="tipoValoracionNumero">
+		<xs:restriction base="integer">
+			<xs:minInclusive value="10"/>
+			<xs:maxInclusive value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="tipoValoracionCadena">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Buena"/>
+			<xs:enumeration value="Mala"/>
+			<xs:enumeration value="Regular"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="unionValoraciones">
+		<xs:union memberTypes="tipoValoracionNumero tipoValoracionCadena"/>
+	</xs:simpleType>
+	
+</xs:schema>
+<!--  
+<xs:element name="festivosLocales" maxOccurs="unbounded">
+	<xs:simpleType>
+		<xs:union memberTypes="tipoFechasLocales xs:date"
+	</xs:simpleType>
+</xs:element>
+-->

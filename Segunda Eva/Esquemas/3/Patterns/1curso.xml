@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="curso.xsd">
+	<Curso>
+		<Titulo>Lenguaje de Marcas</Titulo>
+		<Horas>200</Horas>
+	</Curso>
+	<Curso>
+		<Titulo>BBDD</Titulo>
+		<Horas>210</Horas>
+	</Curso>
+ </Lista>
+

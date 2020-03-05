@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="5curso.xsd">
+    <Curso>
+        <Titulo>Lenguaje de Marcas</Titulo>  
+        <Horas>200</Horas>
+        <festivosLocales>Reyes</festivosLocales>
+        <festivosLocales>2018-12-12</festivosLocales> <!-- posibles valores: Una fecha o Pilar o Reyes--> 
+		<valoracion>Buena</valoracion> <!-- Buena, Mala, Regular-->
+		<valoracion>Mala</valoracion>
+		<valoracion>10</valoracion> <!-- número entre 10 y 100-->
+	</Curso>
+    <!--<Curso>
+            <Titulo>BBDD</Titulo>
+            <descripcion></descripcion>
+            <Horas>210</Horas>
+    </Curso>-->
+	<!--<valoracion>Buena</valoracion>  Buena, Mala, Regular 
+<valoracion>Mala</valoracion>
+<valoracion>10</valoracion>  numero entre 10 y 100-->
+</Lista>

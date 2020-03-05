@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="2curso .xsd">
+	<Curso>
+		<Titulo>Lenguaje de Marcas</Titulo>
+		<Horas>200</Horas>
+		<alumno>Zddddd</alumno>
+	</Curso>
+	<Curso>
+		<Titulo>BBDD</Titulo>
+		<Horas>210</Horas>
+		<alumno>Atttt</alumno>
+	</Curso>
+ </Lista>
+<!--
+alumno :  Empieza por una letra mayúscula y a continuación minúsculas. Longitud máxima 10 . Definicion del tipo dentro
+
+codPostalCoruna : siempre empieza por 15. Ejemplo: 15001. Definicion del tipo fuera.
+
+nombre1: siempre empieza por A o D y despues cualquier combinación de letras minúsculas. Definicion del tipo dentro
+
+ordenador1: nombre de un ordenador del aula 20, Por ejemplo: PC2004. Definicion del tipo fuera.
+
+ordenador: son ordenadores del aula 20, 18 o 21. Por ejemplo PC2002, PC1803, PC2130. Definicion del tipo fuera.
+-->

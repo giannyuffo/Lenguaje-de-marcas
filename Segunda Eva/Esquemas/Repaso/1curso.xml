@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="curso.xsd">
+	<Curso>
+		<Titulo>Lenguaje de Marcas</Titulo>
+		<Horas>200</Horas>
+		<edad1>24</edad1>
+		<edad2>0</edad2>
+		<edad3>21</edad3>
+		<edad4>5</edad4>
+		
+		<nombre1>BlaBlaTren</nombre1>
+		<nombre2>Bla</nombre2>
+		
+		<titulo1>DOS</titulo1>
+		<titulo2>perezd</titulo2>
+		
+		<clave1>Adsf</clave1>
+		<clave2>AFRxc</clave2>
+	</Curso>
+	
+	<!--<Curso>
+		<Titulo>BBDD</Titulo>
+		<Horas>210</Horas>
+	</Curso>-->
+ </Lista>
+
